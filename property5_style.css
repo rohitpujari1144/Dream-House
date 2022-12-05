@@ -1,0 +1,82 @@
+.houseImage
+    {
+        position: relative;
+        left: 10px;
+        background: white;
+        width: 50px;
+        height: 50px;
+        font-size:xx-large;
+        padding-left: 7px;
+        padding-top: 8px;
+        color: black;
+    }
+
+a:hover   
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+.dreamHouse
+    {
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+
+.logInButton
+    {
+        position: relative;
+        right: 10px;
+    }
+
+.buttonFontSize
+    {
+        font-size: large;
+        font-family: Lucida Sans;
+    }
+
+.ecoHouse
+    {
+        margin-left:10px;
+        margin-top:80px;
+        font-weight:bold;
+        color:blue;
+    }
+
+.bookVisit
+    {
+        margin-left: 44%;
+        color: green;
+        text-decoration: none;
+    }
+
+.bookVisit:hover
+    {
+        text-decoration: underline;
+        text-decoration-color: blue;
+        color: green;
+    }
+
+.infodiv
+    {
+        font-family:Trebuchet MS;
+        max-width:50%; 
+        font-size:large;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+.photodiv
+    {
+        max-width:50%; 
+        margin-bottom: 20px;
+        margin-left: 10px; 
+    }
+
+.image
+    {
+        border-radius: 10px;
+    }

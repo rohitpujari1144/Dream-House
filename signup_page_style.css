@@ -1,0 +1,116 @@
+body    
+    {
+        background:linear-gradient(#EA8D8D, #A890FE);
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+
+.navBar
+    {
+        min-width: 650px;
+    }
+
+.houseImage
+    {
+        position: relative;
+        left: 10px;
+        background: white;
+        width: 50px;
+        height: 50px;
+        font-size:xx-large;
+        padding-left: 7px;
+        padding-top: 8px;
+        color: black;
+    }
+
+a:hover   
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+.dreamHouse
+    {
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+.signUp
+    {
+        font-family:Trebuchet MS;
+        padding-top: 100px;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+.signupDiv
+    {
+        
+        background-color: white;
+        border-radius: 10px;
+        max-width: 500px;
+        min-width: 230px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 60px;
+    }
+
+/* .signupDiv:hover
+        {
+            border: 2px solid black;
+        } */
+
+
+.loginHeading
+    {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+.inputHeading
+    {
+        margin: 20px;
+    }
+
+.inputLabel
+    {
+        font-weight: 600;
+        font-size: large;
+    }
+
+.passwordDiv
+    {
+        padding-left: 20px;
+    }
+
+.passwordLabel
+    {
+        font-weight: 600;
+        font-size: large;
+    }
+
+.buttonDiv
+    {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 115px;
+    }
+
+.logIn
+    {
+        font-size: large;
+    }
+
+.registerButton
+    {
+        font-size: large;
+    }
+
+.registerButtonDiv
+    {
+        padding-left: 30px;
+    }
