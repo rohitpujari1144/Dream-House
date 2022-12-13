@@ -101,41 +101,21 @@ function validateInfo()
             {
                 nameError.innerText="*Please enter name"
             }
-        else
-            {
-                nameError.innerText=""
-            }
         if(addressInput.value=="")
             {
                 addressError.innerText="*Please enter address"
-            }
-        else
-            {
-                addressError.innerText=""
             }
         if(professionInput.value=="")
             {
                 professionError.innerText="*Please enter profession"
             }
-        else
-            {
-                professionError.innerText=""
-            }
         if(dateInput.value=="")
             {
                 dateError.innerText="*Please enter date"
             }
-        else
-            {
-                dateError.innerText=""
-            }
         if(timeInput.value=="")
             {
                 timeError.innerText="*Please enter time"
-            }
-        else
-            {
-                timeError.innerText=""
             }
         if(nameError.innerText=="" && addressError.innerText=="" && professionError.innerText=="" && dateError.innerText=="" && timeError.innerText=="")
             {
