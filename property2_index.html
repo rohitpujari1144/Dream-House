@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <div class="container-fluid mainContainer">
+    <div class="container-fluid mainContainer" id="mainContainer">
         <nav class="fixed-top navbar navbar-dark bg-dark navBar">
             <div style="display: flex;">
                 <a href="./index.html"><i class="fa-sharp fa-solid fa-house houseImage"></i></a>
@@ -22,8 +22,8 @@
                 <a href="./login_page_index.html"><button type="button" class="btn btn-primary buttonFontSize">Log In</button></a>
             </div>
         </nav>
-
-        <h1 class="velvetVilla">3BHK Duplex House <a href="./book_visit_index.html" class="bookVisit">Book Visit</a></h1>
+<!-- <a href="./book_visit_index.html" class="bookVisit">Book Visit</a> -->
+        <h1 class="duplexHouse">3BHK Duplex House <button type="button" class="btn btn-outline-success" id="bookVisitButton" style="font-size: 45%; position:absolute; left:85%; transform:translate(-15%)" onclick="bookVisitForm()">Book Visit</button> </h1>
 
 
         <div style="display:flex; padding:0; margin:0;">
@@ -148,5 +148,42 @@
         </div>
     </div>
 
+    <div class="container-fluid mainContainerOne" id="infoForm">
+        <i class="fa-regular fa-circle-xmark closeMark" id="closeMark" style="margin-left:98%;  font-size:x-large"></i>
+
+        <div class="mb-3 inputs" style="padding-top: 10px;">
+            <label for="nameInput" class="form-label" style="font-family:Trebuchet ms; font-size:large">Name</label>
+            <input type="text" class="form-control" id="nameInput" aria-describedby="emailHelp" style="font-family:Trebuchet ms;" onkeyup="nameValidate()" placeholder="name">
+            <span id="nameError" style="color:red;"> </span>
+        </div>
+
+        <div class="mb-3 inputs">
+            <label for="exampleInputEmail1" class="form-label" style="font-family:Trebuchet ms; font-size:large">Address</label>
+            <input type="text" class="form-control" id="addressInput" aria-describedby="emailHelp" style="font-family:Trebuchet ms;" onkeyup="addressValidate()" placeholder="address">
+            <span id="addressError" style="color:red;"> </span>
+        </div>
+
+        <div class="mb-3 inputs">
+            <label for="professionInput" class="form-label" style="font-family:Trebuchet ms; font-size:large">Profession</label>
+            <input type="text" class="form-control" id="professionInput" aria-describedby="emailHelp" style="font-family:Trebuchet ms;" onkeyup="professionValidate()" placeholder="profession">
+            <span id="professionError" style="color:red;"> </span>
+        </div>
+
+        <div class="mb-3 inputs">
+            <label for="dateInput" class="form-label" style="font-family:Trebuchet ms; font-size:large">Date</label>
+            <input type="date" class="form-control" id="dateInput" aria-describedby="emailHelp" style="font-family:Trebuchet ms;" onchange="dateValidate()">
+            <span id="dateError" style="color:red;"> </span>
+        </div>
+
+        <div class="mb-3 inputs" style="padding-bottom: 20px;">
+            <label for="timeInput" class="form-label" style="font-family:Trebuchet ms; font-size:large">Time</label>
+            <input type="time" class="form-control" id="timeInput" aria-describedby="emailHelp" style="font-family:Trebuchet ms;" onchange="timeValidate()" placeholder="HH:MM">
+            <span id="timeError" style="color:red;"> </span>
+        </div>
+
+        <button onclick="validateInfo()" type="button" class="btn btn-primary col-2" style="position: relative; left:50%; transform: translate(-50%); margin-bottom:20px; font-size:120%">Book</button>
+    </div>
+
+    <script src="./property2_script.js"></script>
 </body>
 </html>
