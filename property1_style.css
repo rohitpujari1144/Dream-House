@@ -1,3 +1,37 @@
+.mainContainerOne
+    {
+        max-width: 600px;
+        max-height: fit-content;
+        border: 1px solid black;
+        border-radius: 13px;
+        margin-top: 70px;
+        visibility: hidden;
+        position: absolute;
+        top:0;
+        left:50%;
+        transform: translate(-50%, -50%) scale(0.1);
+        transition: transform 0.4s, top 0.4s;
+        background-color: rgb(174, 208, 212);
+    }
+
+.openBookVisitForm{
+    position: absolute;
+    visibility: visible;
+    top: 45%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.mainContainerStyle
+    {
+        filter: blur(2px);
+    }
+
+.closeMark:hover
+    {
+        color: red;
+        zoom: 105%;
+    }
+
 .houseImage
     {
         position: relative;
@@ -9,6 +43,7 @@
         padding-left: 7px;
         padding-top: 8px;
         color: black;
+        
     }
 
 a:hover   
@@ -34,7 +69,6 @@ a:hover
 
 .buttonFontSize
     {
-        font-size: large;
         font-family: Lucida Sans;
     }
 
