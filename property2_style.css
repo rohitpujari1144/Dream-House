@@ -1,0 +1,115 @@
+.houseImage
+    {
+        position: relative;
+        left: 10px;
+        background: white;
+        width: 50px;
+        height: 50px;
+        font-size:xx-large;
+        padding-left: 7px;
+        padding-top: 8px;
+        color: black;
+    }
+
+.mainContainerOne{
+        max-width: 600px;
+        max-height: fit-content;
+        border: 1px solid black;
+        border-radius: 13px;
+        margin-top: 70px;
+        visibility: hidden;
+        position: absolute;
+        top:0;
+        left:50%;
+        transform: translate(-50%, -50%) scale(0.1);
+        transition: transform 0.4s, top 0.4s;
+        background-color: rgb(174, 208, 212);
+    }
+
+.mainContainerStyle
+    {
+        filter: blur(2px);
+        position: absolute;
+    }
+
+.openBookVisitForm{
+        position: absolute;
+        visibility: visible;
+        top: 40%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+.closeMark:hover{
+    color: red;
+    zoom: 105%;
+}
+
+a:hover   
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+.dreamHouse
+    {
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+
+.logInButton
+    {
+        position: relative;
+        right: 10px;
+    }
+
+.buttonFontSize
+    {
+        font-family: Lucida Sans;
+    }
+
+.duplexHouse
+    {
+        margin-left:10px;
+        margin-top:80px;
+        font-weight:bold;
+        color:blue;
+    }
+
+.bookVisit
+    {
+        margin-left: 43%;
+        color: green;
+        text-decoration: none;
+    }
+
+.bookVisit:hover
+    {
+        text-decoration: underline;
+        text-decoration-color: blue;
+        color: green;
+    }
+
+.infodiv
+    {
+        font-family:Trebuchet MS;
+        max-width:50%;
+        font-size:large;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+.photodiv
+    {
+        max-width:50%; 
+        margin-bottom: 20px;
+        margin-left: 10px; 
+        max-height: 1555px;
+    }
+
+.image
+    {
+        border-radius: 10px;
+    }
