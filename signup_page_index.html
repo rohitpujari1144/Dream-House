@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signup_page_style.css">
+    <title>Signup Page</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        
+        <nav class="fixed-top navbar navbar-dark bg-dark navBar">
+            <div style="display: flex;">
+                <a href="./index.html"><i class="fa-sharp fa-solid fa-house houseImage"></i></a>
+                <a href="./index.html" class="dreamHouse" href=""><h2>Dream House</h2></a>
+            </div>
+        </nav>
+
+        <h1 class="signUp">Sign Up</h1>
+
+        <div class="container-fluid signupDiv">
+            
+            <form action="">
+
+                <div style="display:flex;">
+
+                    <div class="mb-3 inputHeading">
+                        <label for="nameInput" class="form-label inputLabel">Name</label>
+                        <input type="text" class="form-control" id="nameInput" aria-describedby="emailHelp" autocomplete="off" onkeyup="nameValidate()">
+                        <span id="nameError" style="color: red;"> </span>
+                    </div>
+        
+                    <div class="mb-3 inputHeading"> 
+                        <label for="emailInput" class="form-label passwordLabel">Email Id</label>
+                        <input type="email" class="form-control" id="emailInput" autocomplete="off" onkeyup="emailValidate()">
+                        <span id="emailError" style="color: red;"> </span>
+                    </div>
+    
+                </div>
+    
+                <div style="display:flex;">
+    
+                    <div class="mb-3 inputHeading">
+                        <label for="usernameInput" class="form-label inputLabel">Username</label>
+                        <input type="text" class="form-control" id="usernameInput" aria-describedby="emailHelp" autocomplete="off" onkeyup="usernameValidate()">
+                        <span id="usernameError" style="color: red;"> </span>
+                    </div>
+        
+                    <div class="mb-3 inputHeading"> 
+                        <label for="passwordInput" class="form-label passwordLabel">Password</label>
+                        <input type="password" class="form-control" id="passwordInput" autocomplete="off" onkeyup="passwordValidate()">
+                        <span id="passwordError" style="color: red;"> </span>
+                    </div>
+    
+                </div>
+    
+                <div style="display:flex;">
+    
+                    <div class="mb-3 inputHeading">
+                        <label for="cpasswordInput" class="form-label inputLabel">Confirm Password</label>
+                        <input type="password" class="form-control" id="cpasswordInput" aria-describedby="emailHelp" autocomplete="off" onkeyup="cPasswordValidate()">
+                        <span id="cpasswordError" style="color: red;"> </span>
+                    </div>
+        
+                    <div class="mb-3 inputHeading"> 
+                        <label for="otpInput" class="form-label passwordLabel">Enter OTP</label>
+                        <input type="text" class="form-control" id="otpInput" autocomplete="off" onkeyup="otpValidate()">
+                        <span id="otpError" style="color: red;"> </span>
+                    </div>
+    
+                </div>
+    
+                <div class="buttonDiv">
+                    <button onclick="generateOtp()" type="submit" class="btn btn-primary logIn">Generate OTP</button>
+                    <button onclick="return inputValidation()" type="submit" class="btn btn-primary registerButton">Register</button>
+                </div>
+            </form>
+            
+            
+        </div>
+
+    </div>
+
+    <script src="./signup_page_script.js"></script>
+</body>
+</html>

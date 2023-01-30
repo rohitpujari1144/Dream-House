@@ -1,0 +1,222 @@
+body
+    {
+
+        /* background-image: white;
+        height: 100vh; */
+        margin: 0;
+        margin-right: 0;
+        background-attachment: fixed;
+    }
+
+.navBar
+    {
+        min-width: 650px;
+    }
+
+.houseImage
+    {
+        position: relative;
+        left: 10px;
+        background: white;
+        width: 50px;
+        height: 50px;
+        font-size:xx-large;
+        padding-left: 7px;
+        padding-top: 8px;
+        color: black;
+    }
+
+.houseImage:hover
+        {
+            color: green;
+        }
+
+a:hover   
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+.dreamHouse
+    {
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+.logInButton
+    {
+        position: relative;
+        right: 40px;
+    }
+
+.signUpButton
+    {
+        position: relative;
+        right: 30px;
+    }
+
+.buyButton
+    {
+        position: relative;
+        right: 20px;
+    }
+
+.contactButton
+    {
+        position: relative;
+        right: 10px;
+    }
+
+.buttonFontSize
+    {
+        font-size: large;
+        font-family: Lucida Sans;
+    }
+
+.taglineContainer
+    {
+        position: relative;
+        top: 100px;
+        max-width: fit-content;
+        text-align: center;
+    }
+
+.h1
+    {
+        color:midnightblue;
+        font-family:Trebuchet MS;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+.h1:hover{
+    text-decoration: underline;
+}
+
+.container1
+    {
+        position: relative;
+        top: 120px;
+        /* border: 1px solid black; */
+        padding-bottom: 1px;
+    }
+
+/* company info style start */
+
+.infoContainer
+    {
+        display: flex;
+        /* position: relative;
+        top: 50px; */
+    }
+
+.contentDiv
+    {
+        max-width:800px;
+        font-size: larger;
+        color: black;
+        margin-left:20px;
+        font-weight: 500;
+    }
+
+.photoDiv
+    {
+        max-width: fit-content;
+        /* border: 1px solid black; */
+        margin-left: 80px;
+    }
+
+.photoDiv:hover
+    {
+        border: 3px solid rgb(14, 18, 247);
+        /* border-radius: 10px; */
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+.img
+    {
+        max-width: 500px;
+        margin: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+/* company info style end */
+
+.properties
+    {
+        font-family:Trebuchet MS;
+        font-weight: bold;
+        margin-left:20px;
+        padding-top :40px
+    }
+
+/* property 1 info style start */
+
+.infoContainer1
+    {
+        display: flex;
+        /* position: relative;
+        top: 50px; */
+        /* border: 1px solid black; */
+        padding-top: 40px;
+    }
+
+.contentDiv1
+    {
+        max-width:800px;
+        font-size: larger;
+        color: black;
+        margin-left:20px;
+    }
+
+.villa
+    {
+        margin: 10px;
+        font-family:Trebuchet MS;
+        color:crimson;
+    }
+
+.photoDiv1
+    {
+        max-width: fit-content;
+        margin-left: 80px;
+    }
+
+.photoDiv1:hover
+    {
+        border: 3px solid rgb(73, 16, 171);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+.img1
+    {
+        max-width: 500px;
+        margin: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+/* property 1 info style end */
+
+.contactDiv
+    {
+        border: 2px solid black;
+        max-width: fit-content;
+        border-radius: 10px;
+    }
+
+.contactDetails
+    {
+        font-family: Trebuchet MS;
+    }
+
+.contactImage
+    {
+        font-size: larger;
+        margin-top:10px;
+    }

@@ -1,0 +1,178 @@
+body
+    {
+        margin: 0;
+        margin-right: 0;
+        background-attachment: fixed;
+    }
+
+.navBar
+    {
+        min-width: 650px;
+    }
+
+.houseImage
+    {
+        position: relative;
+        left: 10px;
+        background: white;
+        width: 50px;
+        height: 50px;
+        font-size:xx-large;
+        padding-left: 7px;
+        padding-top: 8px;
+        color: black;
+    }
+
+a:hover   
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+.dreamHouse
+    {
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+.logInButton
+    {
+        position: relative;
+        right: 10px;
+    }
+
+.navBarButtonFontSize
+    {
+        font-size: large;
+        font-family: Lucida Sans;
+        
+    }
+
+/* property 1st row style start */
+.propertyRow1
+    {
+        display: flex;
+        justify-content:space-between;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+
+.propertyRow1:hover
+    {
+        background-color: rgb(162, 244, 255);
+    }
+
+.property1
+    {
+        margin: 20px 0 20px 20px;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property2
+    {
+        margin: 20px 0 20px 0;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property3
+    {
+        margin: 20px 20px 20px 0;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property1:hover, .property2:hover, .property3:hover
+    {
+        border: 2px solid black;
+        zoom: 102%;
+    }
+/* property 1st row style end */
+
+/* property 2nd row style start */
+.propertyRow2
+    {
+        display: flex;
+        justify-content:space-between;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+
+.propertyRow2:hover
+        {
+            background-color: rgb(190, 182, 255);
+        }
+
+.property4
+    {
+        margin: 20px 0 20px 20px;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property5
+    {
+        margin: 20px 0 20px 0;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property6
+    {
+        margin: 20px 20px 20px 0;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property4:hover, .property5:hover, .property6:hover
+    {
+        border: 2px solid black;
+        zoom: 102%;
+    }
+/* property 2nd row style end */
+
+/* property 3rd row style start */
+.propertyRow3
+    {
+        display: flex;
+        justify-content:space-between;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+.propertyRow3:hover
+    {
+        background-color: rgb(255, 184, 184);
+    }
+
+.property7
+    {
+        margin: 20px 0 20px 20px;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property8
+    {
+        margin: 20px 0 20px 0;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property9
+    {
+        margin: 20px 20px 20px 0;
+        border: 1px solid black;
+        overflow: auto;
+    }
+
+.property7:hover, .property8:hover, .property9:hover
+    {
+        border: 2px solid black;
+        zoom: 102%;
+    }
+/* property 3rd row style end */
